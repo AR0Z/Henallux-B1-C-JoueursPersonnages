@@ -1,0 +1,40 @@
+1001 MENU PRINCIPAL
+1002 CHARGER LA LISTE DES JOUEURS INSCRITS
+1003 AJOUTER UN JOUEUR ET SES PERSONNAGES 
+1004 AJOUTER UN PERSONNAGE A UN JOUEUR
+1005 SUPPRIMER UN JOUEUR ET SES PERSONNAGES
+1006 AFFICHER LA LISTE DES JOUEURS
+1007 SAUVER LA LISTE DES JOUEURS                      
+1008 QUITTER                       
+2001 Pseudo du joueur : 
+2002 Nom du personnage : 
+2003 Points du personnage : 
+2101 Y'a-t-il un autre personnage ? Reponse (1. Oui | 2. Non) : 
+2102 Choix : 
+2103 Voulez-vous continuer ? Reponse (1. Oui | 2. Non) : 
+3000 GESTION DE JOUEURS
+3001 JOUEUR
+3002 PERSONNAGE
+3003 AFFICHAGE
+3101 AJOUT D'UN JOUEUR
+3102 SUPPRESSION D'UN JOUEUR
+3201 AJOUT D'UN PERSONNAGE
+3202 SUPPRESSION D'UN PERSONNAGE
+3301 LISTE DES JOUEURS
+3401 CHARGER LA LISTE...
+3402 SAUVEGARDE EN COURS...
+3403 AUCUN JOUEUR
+3404 AUCUN PERSONNAGE
+3405 LES MODIFICATIONS NE SERONT PAS PRISES EN COMPTE !
+5001 Ce choix n'est pas disponible !
+5002 Ce joueur n'est pas disponible !
+5003 Ce joueur est deja present !
+5004 Ce personnage n'est pas disponible !
+5005 Ce personnage est deja present !
+5006 Les points doivent etre compris entre 1 et 999 inclus !
+5007 Le peudo doit commencer par une lettre majuscule !
+5008 Le nom doit commencer par une lettre !
+5009 La reponse doit etre soit 1 pour "oui", soit 2 pour "non".
+5010 Le nombre maximum de personnages est atteint !
+5101 Fichier inexistant...
+5102 Plus de place memoire ...
