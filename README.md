@@ -1,39 +1,33 @@
 # JoueursPersonnages
-Exercice récapitulatif des différents module vu en cours :
+Summary exercise of the different modules seen in class: :
 
-- Module 0 - Les tableaux à deux indices
-- Module 1 - Les structures
-- Module 2 - Les fichiers
-- Module 3 - Les pointeurs
-- Module 4 - Compléments
+- Module 0 - Two index tables
+- Module 1 - Structures
+- Module 2 - Files
+- Module 3 - Pointers
+- Module 4 - Complements
 
 ---
 
-## Contenu du code 
+## Content of the code 
 
-### Fichiers ressources :
+### Resource files :
 
-- Francais.txt => fichier contenant tous les textes du programme
-- Lexique.obj => contenant toutes les fonctions pour utiliser le lexique
+- Francais.txt => file containing all the texts of the program
+- Lexique.obj => containing all the functions to use the lexicon
 
-### Fichiers d'en-tête :
+### Header files :
 
-- Constantes.h => contenant les constantes, les enumérations des codes erreurs et des choix du menu
-- JoueursPerso.h => contenant les structs et les signatures des fonctions du projet
-- Lexique.h => contenant l'enumération des message et les signatures des fonctions de `Lexique.obj`
+- Constantes.h => containing constants, error codes and menu choices
+- JoueursPerso.h => containing the structs and signatures of the project functions
+- Lexique.h => containing the message enumeration and function signatures of `Lexique.obj`
 
-### Fichiers Sources :
+### Source Files :
 
-- Principale.c => Ce module contient la fonction main et le chargement du lexique
+- Principale.c => This module contains the main function and the lexicon loading
 
-- Interface.c => Ce module contient toutes les fonctions relatives au dialogue avec l’utilisateur, comme par
-exemple l’affichage des divers menus, les obtentions d’informations (noms des
-personnages...) et l’affichage « en clair » des messages d’erreur renvoyés par les fonctions
-plus mécaniques (de Gestion et de Fichier par exemple).
+- Interface.c => This module contains all the functions related to the dialogue with the user, such as the display of the various menus, the obtaining of information (names of the characters...) and the display "in clear" of the error messages returned by the more mechanical functions (of Management and File for example).
 
-- Gestion.c => Ce module contient toutes les fonctions liées aux listes chaînées retenues en mémoire
-et stockant les joueurs et leurs personnages.
+- Gestion.c => This module contains all the functions related to the linked lists held in memory and storing the players and their characters.
 
-- Fichier.c => Ce module contient toutes les fonctions liées à l’utilisation du fichier de données des
-joueurs et de leurs personnages ; entre autres, la sauvegarde et le chargement des
-données.
+- Fichier.c => This module contains all functions related to the use of the player and character data file, including saving and loading data.
