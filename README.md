@@ -1,5 +1,5 @@
 # JoueursPersonnages
-Summary exercise of the different modules seen in class: :
+Summary exercise of the different modules seen in class :
 
 - Module 0 - Two index tables
 - Module 1 - Structures
